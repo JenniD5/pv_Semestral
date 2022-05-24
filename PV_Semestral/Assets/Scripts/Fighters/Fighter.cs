@@ -10,10 +10,19 @@ public abstract class Fighter : MonoBehaviour
     public CombatManager combatManager;
 
     protected Stats stats;
+
+    protected Skill skill;
+
+    public bool isAlive
+    {
+        get => this.stats.health > 0;
+    }
+
     // Start is called before the first frame update
     protected virtual void Start()
     {
         this.statusPanel.SetStats(this.idName, this.stats);
+        this.skill = this.GetComponentInChildren<Skill>();
     }
 
     public void ModifyHealth(float amount)
@@ -21,6 +30,11 @@ public abstract class Fighter : MonoBehaviour
         this.stats.health = Mathf.Clamp(this.stats.health + amount, 0f, this.stats.maxHealth);
         this.statusPanel.SetHealth(this.stats.health, this.stats.maxHealth);
     
+    }
+
+    public Stats GetCurrentStats()
+    {
+        return this.stats;
     }
 
     public abstract void InitTurn();
