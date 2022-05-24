@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+
 [RequireComponent(typeof(InputsController))]
 public class Hero : Character, IHostile
 {
