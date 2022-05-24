@@ -29,8 +29,6 @@ public class Character : LivingObject
     }
     protected virtual void Movement ()
     {
-        
     }
-
     public bool IsTranslating => transform.position - lastPostion != Vector3.zero;
 }
