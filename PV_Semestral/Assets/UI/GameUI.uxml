@@ -4,21 +4,18 @@
         <ui:VisualElement name="partyContainer" class="partyContainer" style="height: auto; bottom: 20px; background-color: rgba(184, 117, 250, 0.35);">
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
                 <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/MaggieFace.png?fileID=2800000&amp;guid=b634f4eff177c7740a1330d54274ab8e&amp;type=3#MaggieFace&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <ui:Label text="Magie&#10;" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
                 <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
             </ui:VisualElement>
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
                 <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/LisaFace.png?fileID=2800000&amp;guid=c35a10fc8bd8f9d4c8dcdc77ec10ffca&amp;type=3#LisaFace&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <ui:Label text="Lisa&#10;" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
                 <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
             </ui:VisualElement>
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
                 <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/BartFace.png?fileID=2800000&amp;guid=2e509e69632f820408e5377cd1bec97d&amp;type=3#BartFace&apos;);" />
-                <ui:Label text="Maggie" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
+                <ui:Label text="Bart" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
                 <uie:ProgressBar name="health" class="health" />
-                <uie:ProgressBar name="mana" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>

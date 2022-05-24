@@ -1,18 +1,18 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
     <Style src="project://database/Assets/UI/battle/Battle.uss?fileID=7433441132597879392&amp;guid=9426e2cf7f29c0a4798531d9d6b8d509&amp;type=3#Battle" />
     <ui:VisualElement name="container" class="container">
-        <ui:VisualElement name="battlecontainer" class="battlecontainer" style="background-color: rgba(7, 101, 91, 255);">
+        <ui:VisualElement name="battlecontainer" class="battlecontainer" style="background-color: rgb(7, 101, 91);">
             <ui:VisualElement name="characterinfo" class="characterinfo" style="width: 33.33%;">
                 <ui:VisualElement name="spriteContainer" class="spriteContainer">
                     <ui:VisualElement name="sprite" class="sprite" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/MaggieFace.png?fileID=2800000&amp;guid=b634f4eff177c7740a1330d54274ab8e&amp;type=3#MaggieFace&apos;); width: 130px; height: 130px;" />
                 </ui:VisualElement>
                 <ui:VisualElement name="statsContainer" class="statsContainer">
                     <ui:VisualElement name="stat" class="stat">
-                        <ui:Label text="Health" display-tooltip-when-elided="true" class="name" />
+                        <ui:Label text="Salud" display-tooltip-when-elided="true" class="name" />
                         <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
                     </ui:VisualElement>
                     <ui:VisualElement name="stat" class="stat">
-                        <ui:Label text="Brujita" display-tooltip-when-elided="true" class="name" />
+                        <ui:Label text="Progeso" display-tooltip-when-elided="true" class="name" />
                         <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
                     </ui:VisualElement>
                 </ui:VisualElement>
@@ -23,11 +23,11 @@
                 </ui:VisualElement>
                 <ui:VisualElement name="statsContainer" class="statsContainer">
                     <ui:VisualElement name="stat" class="stat">
-                        <ui:Label text="Health" display-tooltip-when-elided="true" class="name" />
+                        <ui:Label text="Salud" display-tooltip-when-elided="true" class="name" />
                         <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
                     </ui:VisualElement>
                     <ui:VisualElement name="stat" class="stat">
-                        <ui:Label text="Mana" display-tooltip-when-elided="true" class="name" />
+                        <ui:Label text="Progreso" display-tooltip-when-elided="true" class="name" />
                         <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
                     </ui:VisualElement>
                 </ui:VisualElement>
@@ -38,11 +38,11 @@
                 </ui:VisualElement>
                 <ui:VisualElement name="statsContainer" class="statsContainer">
                     <ui:VisualElement name="stat" class="stat">
-                        <ui:Label text="Health" display-tooltip-when-elided="true" class="name" />
+                        <ui:Label text="Salud" display-tooltip-when-elided="true" class="name" />
                         <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
                     </ui:VisualElement>
                     <ui:VisualElement name="stat" class="stat">
-                        <ui:Label text="Mana" display-tooltip-when-elided="true" class="name" />
+                        <ui:Label text="Progreso" display-tooltip-when-elided="true" class="name" />
                         <ui:ProgressBar title="0%" low-value="0" tabindex="0" class="bar" />
                     </ui:VisualElement>
                 </ui:VisualElement>
