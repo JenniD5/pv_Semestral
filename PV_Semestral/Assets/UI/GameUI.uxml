@@ -15,7 +15,7 @@
             <ui:VisualElement name="characterInfo" class="characterInfo" style="width: 200px; height: 200px;">
                 <ui:VisualElement name="profile" class="profile" style="background-image: url(&apos;project://database/Assets/Textures/Sprite/BartFace.png?fileID=2800000&amp;guid=2e509e69632f820408e5377cd1bec97d&amp;type=3#BartFace&apos;);" />
                 <ui:Label text="Bart" display-tooltip-when-elided="true" name="characterName" enable-rich-text="true" class="title" />
-                <uie:ProgressBar name="health" class="health" />
+                <uie:ProgressBar name="health" class="health" style="height: 21px; width: 122px;" />
             </ui:VisualElement>
         </ui:VisualElement>
     </ui:VisualElement>
